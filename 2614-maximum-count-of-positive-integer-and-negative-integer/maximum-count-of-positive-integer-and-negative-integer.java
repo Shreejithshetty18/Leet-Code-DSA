@@ -4,9 +4,9 @@ class Solution {
         for(int num:nums){
             if(num>0)
             p++;
-            else if(num<0){
+            else if(num<0)
             n++;
-            }
+            
         }
         return Math.max(p,n);    
     }
