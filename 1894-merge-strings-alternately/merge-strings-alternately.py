@@ -1,9 +1,10 @@
 class Solution:
     def mergeAlternately(self, a: str, b: str) -> str:
         c=""
-        i=0
-        j=0
+        i=0 #string a
+        j=0 #string b
         pick=0
+      
         
         while i<=len(a)-1 and j<=len(b)-1:
             if(pick==0):
